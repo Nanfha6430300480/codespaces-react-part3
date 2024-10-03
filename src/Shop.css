@@ -1,0 +1,17 @@
+.grid-container{
+    display : grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+}
+.grid-container >div{
+    margin:10px;
+    background-color: rgb(221, 201, 201);
+    padding-top:10px;
+    color:black;
+    border-color:rgb(134, 129, 129);
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 5px 10px 8px #ddb4b4;
+}
